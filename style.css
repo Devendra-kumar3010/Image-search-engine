@@ -1,64 +1,69 @@
 body {
-  background:rgb(40, 143, 126);
-    color: #fff;
+    font-family: Arial, sans-serif;
+    background-color: #a19ca7;
   }
   
-   .container {
-    width: 90%;
-    max-width: 600px;
-    margin: auto;
-    height: 50px;
-    /* text-align: center; */
-    background: #4b2096;
-    display: flex;
-    align-items:center;
-    border-radius: 8px;
-    /* margin-top: 50px; */
-  } 
+
   
-   #imageGallery {
-    margin-top: 80px;
-    
-    padding-left: 5%;
-    padding-right: 0%;
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#fff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: darkblue;
   }
   
-  img {
-    max-width: 300px;
+  #imageGallery {
+    margin-top: 30px;
+  }
+  
+  .imageContainer {
+    display: inline-block;
     margin: 10px;
   }
-   .container input{
-    flex: 2;
-    height: 100%;
-    border: 0;
-    outline: 0;
-    background: transparent;
-    color: #fff;
-    font-size: 17px;
-    padding: 0 30px;
+  
+  .imageContainer img {
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  
+  .downloadButton {
+    display: block;
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor:pointer;
+  }
+  
+  .downloadButton:hover {
+    background-color: #45a049;
+  }
+  .container input{
+    
+    flex: 1;
+    width: 30%;
+    height: 30px;
+    background: transparent; 
+    border-radius: 5px;
+    font-size:large;
+  }
+  .container button{
+    width: 100px;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size:medium;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(64, 120, 64);
+  }
   
 
-    }
-    .container button{
-      padding: 0 40px;
-      height: 100%;
-      background: #ff3929;
-      color: #fff;
-      font-size: 16px;
-      border: 0;
-      outline: 0;
-      border-top-right-radius: 8px;
-      border-bottom-right-radius: 8px;
-      cursor: pointer;
-
-
-    }
-
-
-   
-   h1{
-    text-align: center;
-    margin: 50px auto 50px;
-    font-weight: 1000px;
-    font: size 100%;;
-   }
